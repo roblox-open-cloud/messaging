@@ -1,0 +1,18 @@
+{
+  "name": "@roblox-open-cloud/messaging",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "imports": {
+    "#lib/*": "./dist/lib/*.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "roblox-open-cloud",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
